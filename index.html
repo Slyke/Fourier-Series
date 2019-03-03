@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fourier Transoformations</title>
+    <script src="./node_modules/js-ui-engine/src/canvas_ui.min.js"></script>
+    <script src="./fourier.js"></script>
+    <style>
+      @font-face {
+        font-family: "Phoxenix";
+        src: url('Phoxenix.ttf') format("truetype");
+      }
+
+      body, html {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        font-family: 'VT323', monospace;
+      }
+
+      canvas {
+        width: 100%;
+        height: 100%;
+      }
+
+      .canvasContainer {
+        position:absolute;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+    </style>
+
+    <script>
+
+    </script>
+
+  </head>
+  <body onload="init();" onresize="calculateSize()">
+    <div class="canvasContainer">
+      <canvas id="canvasDraw">Hmmm... Your browser doesn't seem to support HTML 5 Canvas</canvas>
+    </div>
+  </body>
+</html>
